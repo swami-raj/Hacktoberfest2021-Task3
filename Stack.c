@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//Global Variable
+
 int size,choice,ele;
 
 
@@ -11,7 +11,7 @@ struct stack{
 
 }st;
 
-//Inserting Element
+
 void push(int element)
 {
     if((st.top)==size)
@@ -27,7 +27,7 @@ void push(int element)
     }
 }
 
-//Removing Element
+
 int pop()
 {
     if((st.top)==-1)
@@ -43,7 +43,7 @@ int pop()
     }
 }
 
-//Peek
+
 int peek()
 {
     int display;
@@ -51,7 +51,7 @@ int peek()
     return display;
 }
 
-//Display Stack
+
 void display()
 {
     if((st.top)>=0)
